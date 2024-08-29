@@ -1,0 +1,37 @@
+#about-glass{
+    padding-top: 19vh;
+}
+#more-about-glass p {
+    font-size: 24.8px;
+}
+
+#more-about-glass h6{
+    color: #eef3db;
+}
+.pad-bot{
+    padding-bottom: 2.5vh;
+}
+.place-holder{
+    background-color: darkgray;
+    width: 86vw;
+    height: 50vh;
+    border-radius: 25px;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+#more-about-glass .section-title{
+    font-size: 20px;
+}
+#more-about-glass .section-name{
+    font-size: 40px;
+}
+#more-about-glass .container{
+    gap: 3vh;
+}
+
+@media (max-width: 580px){
+    #contact{
+        height: 80vh;
+    }
+}

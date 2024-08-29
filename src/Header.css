@@ -1,0 +1,156 @@
+h1,h3,li,p,h4,h5{
+    color: whitesmoke;
+}
+#site-name{
+    font-size: 34px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-pad{
+    padding-left: 7vw;
+}
+.nav-link{
+    text-decoration: none;
+    padding: .1vh .1vw;
+    cursor: pointer;
+}
+.nav-item .nav-link:hover{
+    text-decoration: none;
+    color: brown;
+}
+.nav-link:visited, .nav-link{
+    color: white;
+}
+
+.nav-link{
+    font-size: 21px;
+}
+.header-container{
+    padding-left: 7vw;
+
+    width: 93vw;
+    background-color: rgb(30, 27, 27);
+    display: flex;
+    flex-direction: row;
+    gap: 2.2vw;
+    position: fixed;
+    z-index: 99;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: flex-end;
+    width: auto;
+    gap: 3.5vw;
+    margin-bottom: 21px;
+}
+li{
+
+}
+.menu-icon{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+
+
+/*testing*/
+@media (max-width: 980px){
+    a{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        display: block;
+        position: relative;
+    }
+    .menu-icon{
+        display: flex;
+        height: 30px;
+        width: 30px;
+    }
+    .flex:hover img,
+    .flex:hover a{
+        cursor: pointer;
+    }
+
+    .drop-down-menu:hover{
+        background-color: blanchedalmond;
+    }
+    .flex:hover ul.dropdown{
+        display: flex;
+    }   
+    .menu-icon:hover {
+        
+    }
+    .header-container{
+        padding-left: 15vw;
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        padding-right: 15vw;
+        justify-content: space-between;
+    }
+    #site-name{
+        font-size: 28px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    ul{
+        width: 18vw;
+        background-color: rgb(43, 26, 26);
+        flex-direction: column;
+        display: none;
+        z-index: 999;
+        position: absolute;
+        margin-top: 50px;
+        align-items: flex-start;
+        padding-top: 2vh;
+        padding-left: 15px;
+        padding-right: 50px;
+        padding-bottom: 2vh;
+        margin-left: -54px;
+    }
+
+    
+}
+@media (min-width: 981px) and (max-width:1250px){
+    .header-container{
+        padding-left: 6vw;
+        width: 100%;
+    }
+    #site-name{
+        font-size: 28px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 530px){
+    ul{
+        padding-right: 12.5vw;
+        padding-bottom: 1vh
+    }
+    .card-catalog{
+        flex-direction: column;
+    }
+    .section-pic{
+        align-self: center;
+    }
+
+}
+@media (max-width: 499px){
+    ul{
+        width: 82vw;
+        margin-left: -66vw;
+        padding-left: 8vw;
+    }
+}

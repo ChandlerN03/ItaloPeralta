@@ -1,0 +1,31 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    padding-top: 18vh;
+    /*background-color: rgb(56, 18, 18);
+    min-height: 100%;
+    height:  90vh;
+    padding-top: 10vh;
+    width: 93vw;
+    padding-right: 6vw;
+    width: 86vw;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    */
+  }
+  
+  .button{
+    font-weight: 600;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+    padding: 2.5vh 2.5vw;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .button:hover{
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+  }

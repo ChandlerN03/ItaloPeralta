@@ -1,0 +1,106 @@
+br{
+    padding-bottom: 10px;
+}
+
+.project-title{
+    font-size: 40px;
+    color: #eef3db;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.details{
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.project-pic{
+    float: left;
+    margin-right: 1vw;
+}
+.subtitle{
+    padding-top: 3vh;
+}
+#robotics .project-pic{
+    width: 25vw;
+    height: 22vw;
+}
+
+#robotics #FEA{
+    width: 50vw;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+#robotics .FEA p{
+    font-size: 28px;
+}
+#robotics .date{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.contribution p{
+    line-height: 1.5;
+}
+
+#robotics .container{
+    border: 2px 1px black;
+    flex-direction: row;
+
+    justify-content: space-around;
+    
+}
+
+.projects p{
+    line-height: 1.4;
+}
+.minor-details{
+    font-size: 15px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.col-pic{
+    width: 76vw;
+    align-self: center;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+}
+.row-pic{
+    width: 45vw;
+    align-self: center;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+}
+.center{
+    padding-top: 2vh;
+    text-align: center;
+}
+.duo-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.duo{
+    width: 38vw;
+    height: 30vw;
+}
+.list{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.equation{
+    margin-top: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    align-self: center;
+    min-width: 40px;
+    width: 25vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: aliceblue
+}

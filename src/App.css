@@ -1,0 +1,178 @@
+section{
+  
+  background-color: rgb(56, 18, 18);
+  min-height:  100vh;  
+  height: fit-content;
+  padding-top: 15vh;
+  padding-bottom: 2vh;
+  width: 93vw;
+  padding-right: 6vw;
+  width: 86vw;
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+span{
+  color: blanchedalmond;
+}
+h4{
+  font-size: 64px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+h5{
+  font-size: 30px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.section-title{
+  font-size: 40px;
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.section-name{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: #cdc7c7;
+}
+
+
+
+.icon{
+  height: 40px;
+  width: auto;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+button{
+  height: 40px;
+}
+
+#profile-pic{
+  border-radius: 50%;
+  height: 78vh;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 1400px){
+  h4{
+    font-size: 90px;
+  }
+  .socials{
+    gap: 5vh;
+  }
+  h5{
+    font-size: 40px;
+    margin-top: 4vh;
+  margin-bottom: 4.4vh;
+
+  }
+  .icon{
+    height: 60px;
+  }
+}
+@media (min-width:1100px){
+  #profile-pic{
+    height: 63vh;
+  }
+  .socials{
+    gap: 2vw;
+  }
+  h4{
+    font-size: 69px;
+  }
+  p{
+    font-size: 24px;
+  }
+
+  .description{
+    font-size: 28px;
+  }
+  .section-pic{
+    width: 35vw;
+  }
+
+}
+
+
+@media (max-width: 1100px){
+    h4{
+      font-size: 61px;
+    }
+    h5{
+      font-size: 23px;
+      margin-top: 1vh;
+      margin-bottom: .5vh;
+    }
+}
+
+@media (max-width: 940px){
+  #profile-pic{
+    width: 46vw;
+    height: 46vw;
+  }
+  h4{
+    font-size: 50px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  p{
+    font-size: .9em;
+  }
+  .section-pic{
+    width: 35vw;
+  }
+}
+@media (max-width: 750px){
+  h4{
+    font-size: 40px;
+  }
+  h5{
+    font-size: 18px;
+  }
+  .section-pic{
+    width: 30vw;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .date{
+    font-size: 14px;
+  }
+}
+@media (max-width: 520px){
+  #home{
+    flex-direction: column;
+  }
+  .flex{
+    justify-content: center;
+  }
+  #profile-pic{
+    width: 72vw;
+    height: 72vw;
+  }
+  .left-pad{
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  section{
+    width: 84vw;
+  }
+}

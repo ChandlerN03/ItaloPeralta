@@ -1,0 +1,30 @@
+.card.card-info{
+    padding-top: 2.8vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40vw;
+    transition: all 2s ease;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1.1vw;
+}
+.subheading{
+    color: blanchedalmond;
+}
+
+@media (max-width: 530px){
+    .split{
+        flex-direction: column;
+    }
+    .card.card-info{
+        width: 80vw;
+    }
+    .subheading{
+        font-size: 2em;
+    }
+}
